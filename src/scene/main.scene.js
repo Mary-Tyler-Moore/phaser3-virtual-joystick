@@ -25,7 +25,7 @@ export class MainScene extends Scene {
       this.load.image('base', './assets/image/base.png');
       this.load.image('thumb', './assets/image/thumb.png');
       this.load.plugin('rex-virtual-joystick-plugin"', VirtualJoyStickPlugin, true);
-      this.load.spritesheet("player", "./assets/image/player.png", {
+      this.load.spritesheet("player", "./assets/image/character-one.png", {
           frameWidth: 64,
           frameHeight: 64,
           startFrame: 0,
